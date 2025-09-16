@@ -1,0 +1,10 @@
+/*:root { --bg: #f8fafc; --card: #fff; --accent: #2563eb; --text: #0f172a }*/
+body { margin:0; font-family: Inter, system-ui, Arial; background:var(--bg); color:var(--text); display:flex; align-items:center; justify-content:center; height:100vh }
+.app { width: 420px }
+.card { background:var(--card); padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(15,23,42,0.08) }
+.question { font-weight:600; margin-bottom:12px }
+.options { display:flex; gap:8px }
+.options button { flex:1; padding:10px; border:1px solid #e6edf6; background:#fff; border-radius:6px; cursor:pointer }
+.options button:hover { background: #f1f5f9 }
+.progress { margin-top:12px; color:#64748b }
+.result { background:var(--card); padding:20px; border-radius:8px; text-align:center }
